@@ -1,0 +1,160 @@
+.body{background-color: white;}
+
+header{background: black; margin-top:0px;}
+
+
+body {margin:0;}
+.ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#004fda;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.ul_2 {list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  margin-top: -1.2%;
+  width: auto;
+  min-width: auto;
+}
+
+
+
+.youtube{margin-top: 5em;}
+.li_1 {
+  float: right; font-size: 1vw; font-family:verdana;
+}
+
+.li_2 {
+  float: left; font-size: 1vw; font-family:verdana;
+}
+
+.li_3 {
+ float: right; font-size: 1vw; font-family:verdana; 
+}
+
+.li_3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  width: 12.5vw;
+  margin-right: 0;
+}
+
+
+.section_1{height: 70vh; width: 100%;}
+
+.section_2{height: 300vh; width: auto;}
+
+video {width: 100%; height: auto; position: relative; margin-top: 0%;}
+
+.li_1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 1.5vw;
+  text-decoration: none;
+}
+
+.svg_1 a {color: white;}
+
+.li_2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 1.5vw;
+  text-decoration: none;
+}
+
+
+.li_1 a:hover:not(.active) {
+  background-color:#0084da;  color:white; transition: 1000ms; 
+}
+
+.li_2 a:hover:not(.active) {
+  background-color:#0084da;  color:white; transition: 1000ms;}
+
+.svg_1 (.active){color:#29E1BD; transition: 1000ms;}
+
+
+
+.li_3 a:hover:not(.active) {
+  background-color:black;  color:#0cedc1; transition: 1000ms; font-size:1.5vw;
+}
+.youtube_1{display: flex; justify-content: center; width:auto;}
+
+.youtube_2{display: flex; justify-content: center; width: auto;}
+.img_1 {width: 20vw; height: auto;
+  text-align: center; margin-bottom: auto; margin-top: auto;vertical-align: middle;
+  text-decoration: none;}
+
+.active {
+  background-color: #bebebe;
+}
+
+.svg_1{width:2vw; height: auto;}
+
+.svg_2{width:3.5vw; height: 2.5vw;}
+
+.svg_2:hover {color: red;}
+
+.footer-company{font-size:1.2vw; font-family:verdana; color: white;}
+
+.footer-company-about{font-size:1.2vw; font-family:verdana; color: white;}
+
+.footer{background: #004fda; width: auto; height:auto; font-size: 16px; font-weight: 500; padding: 3vh 50px; margin-bottom: auto;}
+
+
+
+
+.footer .footer-right{ display: inline-block; vertical-align: top; width: 100%; height: auto; margin-bottom: auto;}
+
+.footer .footer-company-about{line-height: 6vh; color: white; font-size: 1.2vw; font-weight: normal; margin: 0; font-family: verdana; float: right; margin-bottom: 0; margin-right: 5vw;}
+
+.container_2 {
+  position: relative;
+  overflow: hidden;
+  width:auto; ;margin-top: 5%;
+}
+
+.div_2{width: auto; background-color: grey; margin-top: -0.4%; height: auto; font-size: 5vw; margin-left: 0}
+
+.table_1 {
+	display: table; margin-left: 0.2vw; /* Allow the centering to work */
+}
+
+
+.youtubeframe{width: 80vw; height: 90vh;}
+
+
+.map{margin-top: 50vw;}
+
+
+
+/* Table CSS */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%; display: flex; justify-content: center; font-size: 2vw;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Paragraphs */
+.p_1{font-size: 2vw; font-family:arial, sans-serif; text-align: center;}
