@@ -24,6 +24,9 @@ body {margin:0;}
 }
 
 
+tr a:hover{ transition: 350ms;}
+
+
 
 .youtube{margin-top: 5em;}
 .li_1 {
@@ -63,9 +66,9 @@ video {width: 100%; height: auto; position: relative; margin-top: 0%;}
   text-decoration: none;
 }
 
-td>a:link {color: #29E1BD;}
+td>a:link {color: #0009BB;}
 
-td>a:hover{color: #8000BB;}
+td>a:hover{color: #D300B3;}
 
 .svg_1 a {color: white;}
 
@@ -185,3 +188,4 @@ table caption{color: black;}
 
 /* Paragraphs */
 .p_1{font-size: 2vw; font-family:arial, sans-serif; text-align: center;}
+
