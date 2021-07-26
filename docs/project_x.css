@@ -66,9 +66,11 @@ video {width: 100%; height: auto; position: relative; margin-top: 0%;}
   text-decoration: none;
 }
 
-td>a:link {color: #0009BB;}
+td>a:link {color: #00bd1f;}
 
-td>a:hover{color: #D300B3;}
+td a:visited {
+  color: #210099;
+}
 
 .svg_1 a {color: white;}
 
